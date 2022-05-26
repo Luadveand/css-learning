@@ -31,23 +31,29 @@ html {
   gap: 2rem;
 }
 
-.hero{
+.hero__container{
   display: flex;
+  justify-content: center;
+}
+
+.hero__container-content {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
   align-items: center;
   width: 80%;
   height: 300px;
   background-color: #d49999;
-} 
+}
 
-.hero__text{
+.hero__container-content-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.hero__image{
+.hero__container-content-image {
   width: 100px;
-  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
